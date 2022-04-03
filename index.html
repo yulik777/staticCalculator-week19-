@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #calculator_btns {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 200px;
+            width: 500px;
+            background-color: rgb(202, 196, 200);
+        }
+
+        #plus,
+        #minus,
+        #multiply,
+        #devide,
+        #ok {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(153, 115, 189);
+            color: white;
+            font-size: 40px;
+        }
+
+        #calculator_vvod {
+            display: flex;
+            justify-content: space-between;
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculator JS</h1>
+    <div class="container">
+        <div id="calculator_vvod">
+            <input type="numbers" id="first_number" placeholder="first number">
+            <input type="numbers" id="second_number" placeholder="second number">
+        </div>
+        <div id="calculator_btns">
+            <button id="plus">+</button>
+            <button id="minus">-</button>
+            <button id="multiply">x</button>
+            <button id="devide">:</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    </div>
+
+    <body>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
