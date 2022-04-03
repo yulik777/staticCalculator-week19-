@@ -1,0 +1,1 @@
+# staticCalculator-week19-
